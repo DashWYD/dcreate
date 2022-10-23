@@ -1,0 +1,26 @@
+{
+  "name": "dcreate",
+  "version": "1.0.0",
+  "description": "Create discord.js projects simply by using (npx create-djs-project)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dash",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DashWYD/Dcreate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DashWYD/Dcreate/issues"
+  },
+  "homepage": "https://github.com/DashWYD/Dcreate#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "javashorten": "^1.0.5"
+  },
+  "bin": {
+    "create-djs-proj" : "index.js"
+  }
+}
